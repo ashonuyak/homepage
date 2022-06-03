@@ -157,15 +157,22 @@ body {
     text-align: justify;
 }
 
+.skills {
+  border-bottom: 3px solid var(--border-color);
+  border-top: 3px solid var(--border-color);
+  margin: 30px 0 30px 0;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
-    margin-bottom: 15px;
+    margin: 15px 0 15px 0;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-bottom: 30px;
 }
 
 .experiences {
