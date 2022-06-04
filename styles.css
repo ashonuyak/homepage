@@ -183,6 +183,23 @@ body {
     margin-bottom: 30px;
 }
 
+.timeline {
+  border-top: 3px solid var(--border-color);
+  margin: 30px 0 0 0;
+}
+
+.timeline__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.timeline__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
@@ -276,3 +293,12 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+  .kevin {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      /* border: 3px solid; */
+      /* border-color: var(--text-decoration-color); */
+  }
