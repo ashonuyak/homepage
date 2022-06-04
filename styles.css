@@ -293,3 +293,12 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+  .kevin {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      /* border: 3px solid; */
+      /* border-color: var(--text-decoration-color); */
+  }
